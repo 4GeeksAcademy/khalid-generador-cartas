@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Random card Generator</title>
 
-  <!-- Fontawesome is our recomended library for icons -->
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 </head>
@@ -15,17 +15,16 @@
 <body>
   <div class="container">
     <div class="card">
-      <span  class="palo-superior">&spades;</span>
+      <span class="palo-superior">&spades;</span>
       <div id="cardnumber" class="number"></div>
       <span class="palo-inferior">&spades;</span>
     </div>
-    <button id="newCard">Nueva Carta</button>
+    <button id="newCard" class="btn btn-outline-light mt-3">Nueva Carta</button>
     <div id="historial">
-  <h3>Historial de Cartas</h3>
-  <div id="lista-historial"></div>
-</div>
+      <h3>Historial de Cartas</h3>
+      <div id="lista-historial"></div>
+    </div>
   </div>
-  <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
   <script type="module" src="/app.js"></script>
 </body>
 
